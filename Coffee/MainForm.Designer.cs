@@ -51,7 +51,7 @@ namespace Coffee
                             var _ = SendInput(1, new INPUT[] { input }, size);
                         }
 
-                        await Task.Delay(TimeSpan.FromMinutes(1));
+                        await Task.Delay(TimeSpan.FromSeconds(15));
                     }
                 }
             }
